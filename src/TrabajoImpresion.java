@@ -14,6 +14,7 @@ public class TrabajoImpresion {
         return id;
     }
 
+
     public String getNombreArchive() {
         return nombreArchive;
     }
@@ -24,6 +25,6 @@ public class TrabajoImpresion {
 
     @Override
     public String toString() {
-        return "Trabajo #" + id + " - " + "Nombre archivo: " + nombreArchive + " - " + "Numero paginas: "+ paginas;
+        return "Trabajo #" + id + " - " + "Nombre: " + nombreArchive + " - " + "Numero paginas: "+ paginas;
     }
 }
