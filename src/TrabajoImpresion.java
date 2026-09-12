@@ -2,9 +2,9 @@ public class TrabajoImpresion {
 
     private final int id;
     private final String nombreArchive;
-    private final String paginas;
+    private final int paginas;
 
-    public TrabajoImpresion(int id, String nombreArchive, String paginas) {
+    public TrabajoImpresion(int id, String nombreArchive, int paginas) {
         this.id = id;
         this.nombreArchive = nombreArchive;
         this.paginas = paginas;
@@ -19,7 +19,7 @@ public class TrabajoImpresion {
         return nombreArchive;
     }
 
-    public String getPaginas() {
+    public int getPaginas() {
         return paginas;
     }
 
